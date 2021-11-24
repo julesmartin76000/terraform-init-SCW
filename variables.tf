@@ -30,7 +30,7 @@ variable "kapsule_pool_node_type" {
   type = string
 }
 
-/*
+
 variable "rdb_is_ha_cluster" {
   type = bool
 }
@@ -55,11 +55,11 @@ variable "rdb_user_root_password" {
   type = string
 }
 
-variable "rdb_user_metabase_password" {
+variable "rdb_user_scaleway_db_password" {
   type = string
 }
 
 variable "rdb_instance_volume_type" {
   type = string
 }
-*/
+
