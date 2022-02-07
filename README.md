@@ -15,7 +15,7 @@ List of availability zones by regions:
 - Deploying our first resources: instance + block
 - Team work on Terraform 
 - Deploying a Kubernetes Kapsule cluster on Terraform
-- Add you databases 
+- Add your databases 
 
 ## Resources
 
