@@ -26,8 +26,8 @@ resource "scaleway_rdb_user" "scaleway-rdb" {
 resource "scaleway_rdb_acl" "scaleway-rdb" {
   instance_id = scaleway_rdb_instance.scaleway-rdb.id
   acl_rules {
-    ip          = "1.2.3.4/32"
-    description = "foo"
+    ip          = "${scaleway_instance_ip.public_ip.address}/32"
+    description = "SCW instance"
   }
 }
 
